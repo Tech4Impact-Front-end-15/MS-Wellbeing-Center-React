@@ -20,7 +20,7 @@ function ViewBlog() {
 
   const clickBlog = (item) => {
     console.log("Berhasil di klik")
-    console.log(item)
+    //console.log(item)
   }
   
  return (
