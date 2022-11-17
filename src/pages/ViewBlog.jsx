@@ -20,11 +20,11 @@ function ViewBlog() {
     );
   }, []);
 
-  console.log(blogs);
+  // console.log(blogs);
 
   const clickBlog = (item) => {
-    console.log("Berhasil di klik");
-    console.log(item);
+    // console.log("Berhasil di klik");
+    // console.log(item);
   };
 
   const handleDetail = (id) => {

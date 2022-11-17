@@ -1,12 +1,10 @@
 import { useState } from "react";
 import ViewBlog from "./pages/ViewBlog";
 import MentalHack from "./dir/img/MentalHack.png";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { Link, Route, Routes } from "react-router-dom";
 import Video from "./pages/Video";
-import ItemBlog from "./components/ItemBlog";
 import Blog from "./pages/Blog";
 
 function App() {
@@ -117,8 +115,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
+
         <Route path="/blog" element={<ViewBlog />}></Route>
         <Route path="/blog/:id" element={<Blog />}></Route>
+
         <Route path="/video" element={<Video />}></Route>
       </Routes>
 
