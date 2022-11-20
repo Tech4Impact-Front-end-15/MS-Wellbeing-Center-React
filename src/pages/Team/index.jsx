@@ -12,9 +12,7 @@ function Member() {
       <section className="mb-10 w-full">
         <img src={Team} alt="" className="w-full" />
       </section>
-
       <HeroTeam />
-
       <section className="h-[200px] sm:h-[400px] text-white bg-bgPrimary border flex items-center">
         <img
           src={Zaky}
