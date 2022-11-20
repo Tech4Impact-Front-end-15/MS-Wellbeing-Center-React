@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import { Link, Route, Routes } from "react-router-dom";
 import ListBlog from "./pages/Blog";
 import Footer from "./components/Footer";
 import DetailBlog from "./pages/blog/detail";
-import Team from "./pages/Team";
 import Member from "./pages/Team";
+import ListVideo from "./pages/video";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/blog" element={<ListBlog />}></Route>
         <Route path="/blog/:id" element={<DetailBlog />}></Route>
+        <Route path="/video" element={<ListVideo />}></Route>
         <Route path="/team" element={<Member />}></Route>
       </Routes>
       {/* Routes */}

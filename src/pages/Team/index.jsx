@@ -3,7 +3,6 @@ import Team from "../../img/team3.png";
 import Zaky from "../../img/Zaky.png";
 import Suca from "../../img/Suca.png";
 import Thobie from "../../img/Thobi.png";
-import HeroBlog from "../../components/Blog/HeroBlog";
 import HeroTeam from "../../components/Team/HeroTeam";
 
 function Member() {
@@ -24,10 +23,10 @@ function Member() {
           <p className="text-sm sm:text-xl">21 tahun</p>
 
           <div className="italic text-justify mt-3 sm:mr-20 text-[10px] sm:text-lg">
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, accusantium illum, modi voluptate dolorum autem sint
-            iure exercitationem praesentium nihil quod nulla quibusdam
-            necessitatibus sequi dolore nobis deserunt corporis quam!"
+            "Jadikanlah kritikan orang lain sebagai pembangun mental dan
+            semangat untuk menjadi lebih baik lagi karena hidup kita tidak
+            bergantung pada perkataan orang lain, hidup kita bergantung pada
+            pola pikir mental dan ikhtiar kita sendiri."
           </div>
         </div>
       </section>
@@ -53,12 +52,9 @@ function Member() {
         />
         <div className="p-5 mr-5">
           <p className="text-2xl sm:text-4xl font-bold ">Thobie</p>
-          <p className="text-sm sm:text-xl">21 tahun</p>
+          <p className="text-sm sm:text-xl">20 tahun</p>
           <div className="italic text-justify mt-3 sm:mr-20 text-[10px] sm:text-lg">
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur, accusantium illum, modi voluptate dolorum autem sint
-            iure exercitationem praesentium nihil quod nulla quibusdam
-            necessitatibus sequi dolore nobis deserunt corporis quam!"
+            ""ngeluh oke, nyerah jangan""
           </div>
         </div>
       </section>

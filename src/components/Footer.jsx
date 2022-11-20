@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="mt-10">
+    <div className="footer-ahoi mt-28">
       <footer className="bg-bgPrimary w-full py-2 shadow-lg ">
         <div className="flex flex-warp justify-center items-center text-textWhite text-[12px]">
           <h6>
